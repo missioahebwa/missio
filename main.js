@@ -197,7 +197,9 @@ const displayPricing = () => {
     const featuresHTML = p.features
       .map(
         (f) =>
-          `<li><span class='icon'><img src="check-icon.svg"/></span>${f}</li>`
+          `<li><span class='icon'>
+          <img src="check-icon.svg" alt="" />
+          </span>${f}</li>`
       )
       .join("");
 
