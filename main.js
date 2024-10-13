@@ -1,41 +1,41 @@
 const featuresList = [
   {
-    icon: "images/create-task-icon.svg",
+    icon: "create-task-icon.svg",
     title: "Library",
     description:
       "Easily have access to over 100s of different book collects.",
   },
 
   {
-    icon: "images/reminders-icon.svg",
+    icon: "reminders-icon.svg",
     title: "Gaga AI",
     description:
       "Get access to consultation at any time and every where you wish.",
   },
 
   {
-    icon: "images/collaborations-icon.svg",
+    icon: "collaborations-icon.svg",
     title: "Lessons",
     description:
       "Feel the new way having lessons from different professions.",
   },
 
   {
-    icon: "images/progress-icon.svg",
+    icon: "progress-icon.svg",
     title: "Personal Coaching",
     description:
       "Have skills and knownledge for any thing you wish.",
   },
 
   {
-    icon: "images/deadline-icon.svg",
+    icon: "deadline-icon.svg",
     title: "Networking",
     description:
       "Connect with different fellow students accross the global to enhance in your academics.",
   },
 
   {
-    icon: "images/file-icon.svg",
+    icon: "file-icon.svg",
     title: "Live Seminars",
     description:
       "Access seminars almost for free in any course.",
@@ -46,21 +46,21 @@ const testimonialsList = [
   {
     review:
       "Since I started using the app, my productivity has skyrocketed. The reminder feature keeps me on track and ensures that I never miss an important task or deadline. Highly recommended!",
-    image: "images/testimonial1.png",
+    image: "testimonial1.png",
     name: "John Smith",
     designation: "Tech Lead, Amazon",
   },
   {
     review:
       "This app has completely changed the way I manage my tasks. The advanced features and intuitive interface make it a joy to use. I can't imagine my work life without it!",
-    image: "images/testimonial2.png",
+    image: "testimonial2.png",
     name: "Sarah Johnson",
     designation: "Product Manager, Google",
   },
   {
     review:
       "I've tried several task management apps, but this one takes the cake. The customizable workflows and seamless collaboration features have greatly improved my team's efficiency.",
-    image: "images/testimonial3.png",
+    image: "testimonial3.png",
     name: "Emily Davis",
     designation: "Project Manager, Microsoft",
   },
@@ -144,7 +144,7 @@ displayFeatures();
 
 const displayTestimonial = () => {
   const html = `<span class="quote-icon">
-  <img src="images/quote-icon.svg" alt="" />
+  <img src="quote-icon.svg" alt="" />
 </span>
 
 <p class="review">
