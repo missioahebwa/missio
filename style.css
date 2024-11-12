@@ -24,7 +24,7 @@ a {
 
 nav {
   position: fixed;
-  top: 30px;
+  top: 20px;
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.9) 0%,
@@ -599,7 +599,6 @@ nav .menu-icon,
 }
 
 
-
 /* video container startrs here  */
 
 .video-container {
@@ -608,9 +607,6 @@ nav .menu-icon,
     grid-gap: 18px;
     padding: 20px 25px;
     background-color: #fff;
-    overflow-y: scroll;
-    height: calc(100vh - 60px);
-    width: calc(100vw - 40px);
 }
 
 .video-content-cover {
@@ -655,7 +651,7 @@ nav .menu-icon,
 
 .title {
     font-size: 1.6rem;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .channel-name {
@@ -735,6 +731,13 @@ nav .menu-icon,
     .header {
         padding-right: 10px;
     }
+    .cover-img {
+        width: 300px;
+    }
+
+    .video-content {
+       width: 300px;
+    }
     .video-content:hover {
         display: none;
         transform: none;
@@ -779,6 +782,7 @@ nav .menu-icon,
     .video-content:hover .hidden-content {
         display: none;
     }
+
 }
 
 
