@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GAGA EXPERT APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+     <link rel="html" href="images/blogpage.html" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="logo">GAGA EXPERT</a>
+      <div class="nav-items">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="#cta">Download</a>
+        <a href="blogpage.html">Blog</a>
+      </div>
+
+      <div class="menu-icon">
+        <img src="images/menu-icon.svg" alt="" />
+      </div>
+    </nav>
+
+    <div class="mobile-nav-menu">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="#cta">Download</a>
+      <a href="index.html">Home</a>
+    </div>
+<body>
+<section>
+<div id="paypal-button-container-P-5RD09398YM520442DM4KQPNI"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AVDep7tpokywNN-IrzpLGFMe31FpyGxBOMWwstCy0fvHhccp6EMId49zb75S0q6nIfHWZwVLVjoM3y48&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'white',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-5RD09398YM520442DM4KQPNI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-5RD09398YM520442DM4KQPNI'); // Renders the PayPal button
+</script>
+</section>
+</body>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="left">
+            <div class="logo">GAGA EXPERT</div>
+            <p>The Future On a Click</p>
+          </div>
+
+          <div class="right">
+            <div class="links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+
+                <li>
+                  <a href="page1.html">Privacy Policy</a>
+                </li>
+
+                <li>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="links">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>+(256) 700 244829</li>
+                <li>customer@gagaexpert.site</li>
+                <li>123 Main Street, City, State, ZIP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>Designed by Gaga Expert © 2024</p>
+          <div class="socials">
+            <a href="page1.html"><img src="images/facebook-logo.svg" alt="" /></a>
+            <a href="page1.html"><img src="images/instagram-logo.svg" alt="" /></a>
+            <a href="page1.html"><img src="images/twitter-logo.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
