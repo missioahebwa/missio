@@ -77,7 +77,7 @@ const plans = [
 
     ],
     price: "Free",
-    link: "payment.html",
+    link: "Payment.html",
   },
 
 
@@ -91,7 +91,7 @@ const plans = [
       "Daily Home Work",
       "24/7 Customer Support",
     ],
-    price: "UGX129,000 / $29.99",
+    price: "UGX159,000/$29.99",
     link: "https://sites.google.com/view/gaga-expert-app/payment",
   },
 
