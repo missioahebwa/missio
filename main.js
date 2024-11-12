@@ -187,7 +187,7 @@ displayFeatures();
 
 const displayTestimonial = () => {
   const html = `<span class="quote-icon">
-  <img src="images/quote-icon.svg" alt="" />
+  <img src="quote-icon.svg" alt="" />
 </span>
 
 <p class="review">
@@ -240,7 +240,7 @@ const displayPricing = () => {
     const featuresHTML = p.features
       .map(
         (f) =>
-          `<li><span class='icon'><img src='images/check-icon.svg'/></span>${f}</li>`
+          `<li><span class='icon'><img src='check-icon.svg'/></span>${f}</li>`
       )
       .join("");
 
