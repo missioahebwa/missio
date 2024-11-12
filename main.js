@@ -1,41 +1,41 @@
 const featuresList = [
   {
-    icon: "images/create-task-icon.svg",
+    icon: "create-task-icon.svg",
     title: "Library",
     description:
       "Easily have access to over 100s of different book collects.",
   },
 
   {
-    icon: "images/reminders-icon.svg",
+    icon: "reminders-icon.svg",
     title: "Gaga AI",
     description:
       "Get access to consultation at any time and every where you wish.",
   },
 
   {
-    icon: "images/collaborations-icon.svg",
+    icon: "collaborations-icon.svg",
     title: "Lessons",
     description:
       "Feel the new way having lessons from different professions.",
   },
 
   {
-    icon: "images/progress-icon.svg",
+    icon: "progress-icon.svg",
     title: "Personal Coaching",
     description:
       "Have skills and knownledge for any thing you wish.",
   },
 
   {
-    icon: "images/deadline-icon.svg",
+    icon: "deadline-icon.svg",
     title: "Networking",
     description:
       "Connect with different fellow students accross the global to enhance in your academics.",
   },
 
   {
-    icon: "images/file-icon.svg",
+    icon: "file-icon.svg",
     title: "Live Seminars",
     description:
       "Access seminars almost for free in any course.",
