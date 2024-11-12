@@ -1,112 +1,155 @@
 const featuresList = [
   {
-    icon: "create-task-icon.svg",
+    icon: "images/create-task-icon.svg",
     title: "Library",
     description:
       "Easily have access to over 100s of different book collects.",
   },
 
   {
-    icon: "reminders-icon.svg",
+    icon: "images/reminders-icon.svg",
     title: "Gaga AI",
     description:
       "Get access to consultation at any time and every where you wish.",
   },
 
   {
-    icon: "collaborations-icon.svg",
+    icon: "images/collaborations-icon.svg",
     title: "Lessons",
     description:
       "Feel the new way having lessons from different professions.",
   },
 
   {
-    icon: "progress-icon.svg",
+    icon: "images/progress-icon.svg",
     title: "Personal Coaching",
     description:
       "Have skills and knownledge for any thing you wish.",
   },
 
   {
-    icon: "deadline-icon.svg",
+    icon: "images/deadline-icon.svg",
     title: "Networking",
     description:
       "Connect with different fellow students accross the global to enhance in your academics.",
   },
 
   {
-    icon: "file-icon.svg",
+    icon: "images/file-icon.svg",
     title: "Live Seminars",
     description:
       "Access seminars almost for free in any course.",
   },
 ];
-
 const testimonialsList = [
   {
     review:
-      "Since I started using the app, my productivity has skyrocketed. The reminder feature keeps me on track and ensures that I never miss an important task or deadline. Highly recommended!",
-    image: "testimonial1.png",
-    name: "John Smith",
-    designation: "Tech Lead, Amazon",
+      "I recommend Gaga app because it is the good thing i would wish for my fellow students mainly in primary. Just beacuse am in primary it has helped alot in my research work and assisted me in doing every well my home work. i have got a good understanding in my class lessons. Thanks Gaga Expert Team",
+    image: "images/testimonial4.png",
+    name: "Walukaga Nature",
+    designation: "Assistant Head Girl, Lights of Hope Primary School",
   },
   {
     review:
-      "This app has completely changed the way I manage my tasks. The advanced features and intuitive interface make it a joy to use. I can't imagine my work life without it!",
-    image: "testimonial2.png",
-    name: "Sarah Johnson",
-    designation: "Product Manager, Google",
+      "This app has completely changed the way I do my home work and research work. The service i joined have made me advance to the next level of my perfomance as now i am the best in my class. I can't imagine my work life without it!",
+    image: "images/testimonial5.png",
+    name: "Segayi Calvin",
+    designation: "Head boy, Lights Of Hope International School",
   },
   {
     review:
-      "I've tried several task management apps, but this one takes the cake. The customizable workflows and seamless collaboration features have greatly improved my team's efficiency.",
-    image: "testimonial3.png",
-    name: "Emily Davis",
-    designation: "Project Manager, Microsoft",
+      "I never miss my doning my home work just because i can't miss the joy that Gaga Expert has put in our studying that has enbled us have access to education guidance any where. thanks Gaga Expert",
+    image: "images/testimonial7.png",
+    name: "Blessing Moses",
+    designation: "Student, LOHIM Primary School",
   },
 ];
 
+
+
 const plans = [
+  {
+    name: "Free",
+    features: [
+      "Weekly Tests",
+      "Saved Lessons",
+      "Daily Home Work",
+
+    ],
+    price: "Free",
+    link: "payment.html",
+  },
+
+
   {
     name: "Monthly",
     features: [
-      "50 Tasks",
-      "Deadline Tracking",
-      "Priority Settings",
-      "Basic Reporting",
-      "Email Notifications",
+      "Weekly Tests",
+      "Basic Certificate",
+      "2hrs/weekly Coaching and Mentorship",
+      "Saved Lessons",
+      "Daily Home Work",
       "24/7 Customer Support",
     ],
-    price: "$9.99",
-    link: "#",
+    price: "UGX129,000 / $29.99",
+    link: "payment.html",
   },
 
   {
-    name: "6 Month",
+    name: "3 month",
     features: [
       "All from <strong>Basic</strong> plan",
-      "Advanced Tasks",
+      "Weekly Tests",
       "Subtasks",
-      "File Attachments",
-      "Gantt Chart View",
-      "Collaborations",
+      "Basic Certificate",
+      "2hrs/weekly Consultation",
+      "Group Discussions",
+      "Daily Home Work",
+      "Saved Lessons"
+
+
     ],
-    price: "$49.99",
-    link: "#",
+    price: "UGX399,000 / $99.99",
+    link: "Payment.html",
+  },
+
+
+
+
+  {
+    name: "6 month",
+    features: [
+      "All from <strong>Basic</strong> plan",
+      "Weekly Tests",
+      "Subtasks",
+      "Basic Certificate",
+      "2hrs/weekly Consultation",
+      "Group Discussions",
+      "Daily Home Work",
+      "Saved Lessons"
+
+
+    ],
+    price: "UGX799,000 / $199.99",
+    link: "Payment.html",
   },
 
   {
     name: "Yearly",
     features: [
       "All from <strong>Pro</strong> plan",
-      "Custom Branding",
-      "API Access",
-      "Data Export",
-      "Advanced Security",
-      "Custom Integrations",
+      "Weekly Tests",
+      "Access to all Premium Packages",
+      "Subtasks",
+      "Basic Certificate",
+      "2hrs/weekly Coaching",
+      "Group Discussions",
+      "Daily Home Work",
+      "Saved Lessons",
+      "Live Lessons",
     ],
-    price: "$99.99",
-    link: "#",
+    price: "UGX1.29m / $299.99",
+    link: "payment.html",
   },
 ];
 
@@ -144,7 +187,7 @@ displayFeatures();
 
 const displayTestimonial = () => {
   const html = `<span class="quote-icon">
-  <img src="quote-icon.svg" alt="" />
+  <img src="images/quote-icon.svg" alt="" />
 </span>
 
 <p class="review">
@@ -197,9 +240,7 @@ const displayPricing = () => {
     const featuresHTML = p.features
       .map(
         (f) =>
-          `<li><span class='icon'>
-          <img src="check-icon.svg" alt="" />
-          </span>${f}</li>`
+          `<li><span class='icon'><img src='images/check-icon.svg'/></span>${f}</li>`
       )
       .join("");
 
