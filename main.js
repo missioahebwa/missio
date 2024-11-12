@@ -45,21 +45,21 @@ const testimonialsList = [
   {
     review:
       "I recommend Gaga app because it is the good thing i would wish for my fellow students mainly in primary. Just beacuse am in primary it has helped alot in my research work and assisted me in doing every well my home work. i have got a good understanding in my class lessons. Thanks Gaga Expert Team",
-    image: "images/testimonial4.png",
+    image: "testimonial4.png",
     name: "Walukaga Nature",
     designation: "Assistant Head Girl, Lights of Hope Primary School",
   },
   {
     review:
       "This app has completely changed the way I do my home work and research work. The service i joined have made me advance to the next level of my perfomance as now i am the best in my class. I can't imagine my work life without it!",
-    image: "images/testimonial5.png",
+    image: "testimonial5.png",
     name: "Segayi Calvin",
     designation: "Head boy, Lights Of Hope International School",
   },
   {
     review:
       "I never miss my doning my home work just because i can't miss the joy that Gaga Expert has put in our studying that has enbled us have access to education guidance any where. thanks Gaga Expert",
-    image: "images/testimonial7.png",
+    image: "testimonial7.png",
     name: "Blessing Moses",
     designation: "Student, LOHIM Primary School",
   },
