@@ -92,7 +92,7 @@ const plans = [
       "24/7 Customer Support",
     ],
     price: "UGX129,000 / $29.99",
-    link: "payment.html",
+    link: "https://sites.google.com/view/gaga-expert-app/payment",
   },
 
   {
@@ -110,7 +110,7 @@ const plans = [
 
     ],
     price: "UGX399,000 / $99.99",
-    link: "Payment.html",
+    link: "https://sites.google.com/view/gaga-expert-app/payment",
   },
 
 
@@ -131,7 +131,7 @@ const plans = [
 
     ],
     price: "UGX799,000 / $199.99",
-    link: "Payment.html",
+    link: "https://sites.google.com/view/gaga-expert-app/payment",
   },
 
   {
@@ -149,7 +149,7 @@ const plans = [
       "Live Lessons",
     ],
     price: "UGX1.29m / $299.99",
-    link: "payment.html",
+    link: "https://sites.google.com/view/gaga-expert-app/payment",
   },
 ];
 
